@@ -57,9 +57,9 @@ if [ ! -f "$INSTALL_DIR/.env" ]; then
         echo "     nano $INSTALL_DIR/.env"
     else
         cat > "$INSTALL_DIR/.env" << 'ENVEOF'
-BSKY_HANDLE=parisien.cc
+BSKY_HANDLE=your-handle.bsky.social
 BSKY_APP_PASSWORD=your-app-password-here
-FEED_HOSTNAME=feed.parisien.cc
+FEED_HOSTNAME=feed.example.com
 FEED_PORT=8000
 FEED_NAME=filtered-following
 DELAY_SECONDS=300

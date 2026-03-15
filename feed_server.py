@@ -51,12 +51,12 @@ except ImportError:
 #  CONFIGURATION (override via environment)
 # ─────────────────────────────────────────────
 
-BSKY_HANDLE      = os.environ.get("BSKY_HANDLE", "parisien.cc")
+BSKY_HANDLE      = os.environ.get("BSKY_HANDLE", "your-handle.bsky.social")
 BSKY_APP_PASSWORD = os.environ.get("BSKY_APP_PASSWORD", "")
 BSKY_API         = "https://bsky.social/xrpc"
 PUBLIC_API       = "https://public.api.bsky.app/xrpc"
 
-FEED_HOSTNAME = os.environ.get("FEED_HOSTNAME", "feed.parisien.cc")
+FEED_HOSTNAME = os.environ.get("FEED_HOSTNAME", "feed.example.com")
 FEED_PORT     = int(os.environ.get("FEED_PORT", "8000"))
 FEED_NAME     = os.environ.get("FEED_NAME", "filtered-following")
 

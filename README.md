@@ -44,7 +44,7 @@ Floor: 17 (posts scoring below this are dropped)
 
 ```bash
 # Clone
-git clone https://github.com/aaaricie/filtered-bsky-feed.git
+git clone https://github.com/yourusername/filtered-bsky-feed.git
 cd filtered-bsky-feed
 
 # Install dependencies
@@ -98,9 +98,9 @@ All settings are configured via environment variables (or `.env` file):
 
 | Variable | Default | Description |
 |----------|---------|-------------|
-| `BSKY_HANDLE` | `parisien.cc` | Your Bluesky handle |
+| `BSKY_HANDLE` | `your-handle.bsky.social` | Your Bluesky handle |
 | `BSKY_APP_PASSWORD` | — | App password (required) |
-| `FEED_HOSTNAME` | `feed.parisien.cc` | Domain for the feed server |
+| `FEED_HOSTNAME` | `feed.example.com` | Domain for the feed server |
 | `FEED_PORT` | `8000` | HTTP port |
 | `FEED_NAME` | `filtered-following` | Feed record key |
 | `DELAY_SECONDS` | `300` | Buffer time before scoring (seconds) |

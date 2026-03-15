@@ -16,9 +16,9 @@ import sys
 import datetime
 
 BSKY_API     = "https://bsky.social/xrpc"
-HANDLE       = os.environ.get("BSKY_HANDLE", "parisien.cc")
+HANDLE       = os.environ.get("BSKY_HANDLE", "your-handle.bsky.social")
 APP_PASSWORD = os.environ.get("BSKY_APP_PASSWORD", "")
-FEED_HOSTNAME = os.environ.get("FEED_HOSTNAME", "feed.parisien.cc")
+FEED_HOSTNAME = os.environ.get("FEED_HOSTNAME", "feed.example.com")
 FEED_NAME     = os.environ.get("FEED_NAME", "filtered-following")
 FEED_DISPLAY_NAME = os.environ.get("FEED_DISPLAY_NAME", "Filtered Following")
 FEED_DESCRIPTION  = os.environ.get("FEED_DESCRIPTION",
