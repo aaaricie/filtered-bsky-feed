@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.env
+feed.db
+feed.db-wal
+feed.db-shm
+jetstream_cursor.txt
+zstd_dictionary
